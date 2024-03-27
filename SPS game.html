@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rock, Paper, Scissors Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles22.css">
+</head>
+<body>
+ 
+<h1>Rock, Paper, Scissors</h1>
+  <div class="scoreboard">
+    <div class="player-score">Player: 0</div>
+    <div class="computer-score">Computer: 0</div>
+  </div>
+  <div class="choices">
+    <div class="choice" id="rock">
+      <i class="fas fa-hand-rock"></i>
+    </div>
+    <div class="choice" id="paper">
+      <i class="fas fa-hand-paper"></i>
+    </div><br><br>
+    <div class="choice" id="scissors">
+      <i class="fas fa-hand-scissors"></i>
+    </div>
+  </div>
+  <div class="result" id="result">
+    <p>Choose your weapon!</p>
+  </div>
+  <div id="computer-choice"></div>
+  <div class="timer" id="timer">
+    <p>Time left: <span id="countdown">10</span>s</p>
+  </div>
+  <button class="play-again" id="play-again">Play Again</button>
+  <br><br><br>
+    
+  <button id="rules">Rules </button>
+  
+</div>
+
+
+<div id="rules-popup">
+  <div id="rules-content">
+    <span id="close">&times;</span>
+    <h2>Rules  <span class="extraspace"></span> <span class="extraspace"></span> <span class="extraspace"></span> <span class="extraspace"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Example   <span class="extraspace"></span> <span class="extraspace"></span> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Winner </h2>
+    <h3><spam>Rock Crushes Scissors  <span class="extraspace"></span> Human = <img src="rock.png" style="vertical-align:middle"> & &nbsp;&nbsp; Computer =&nbsp;&nbsp; <img src="scc.png" style="vertical-align:middle">  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  Human  </spam> </h3>
+    <h3>Scissors Cuts Paper &nbsp;&nbsp;&nbsp;&nbsp; <span class="extraspace"></span> Human = &nbsp;&nbsp;&nbsp;<img src="scc.png" style="vertical-align:middle">&nbsp;&nbsp; &nbsp;&nbsp;& &nbsp;&nbsp;  Computer =&nbsp;<img src="Paper.png"style="vertical-align:middle">&nbsp;&nbsp;&nbsp;&nbsp;   Human  </h3>
+      <h3> Paper Covers Rock &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="extraspace"></span> Human = <img src="Paper.png" style="vertical-align:middle">&nbsp; & &nbsp;&nbsp; Computer = <img src="rock.png" style="vertical-align:middle"> &nbsp; Human </h3>
+  </div>
+</div>
+  <script src="scripting.js"></script>
+</body>
+</html>
